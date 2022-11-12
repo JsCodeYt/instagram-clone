@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    margin: 0 200px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+.header-nav__logo img {
+    height: 80px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav__search form {
+    background-color: #efefef;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.header-nav__search input {
+    width: 190px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #efefef;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.header-nav__search i {
+    cursor: pointer;
+}
+
+.header-nav__icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-nav__icons i {
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.header-nav__icons i:hover {
+    background-color: #efefef;
+}
+
+/* posts styles */
+
+.posts {
+    margin: 30px 300px;
+}
+
+.follow {
+    width: 600px;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+}
+
+.follow-channel {
+    background-color: white;
+}
+
+.follow-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.follow-channel img {
+    width: 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 3px solid #ef9de6;
+}
+
+.follow-channel p {
+    font-size: 12px;
+}
+
+.post {
+    margin: 30px 0px;
+    height: 750px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.post-header__img img {
+    width: 30px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.post-header__titles {
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+.post-header__titles h3{
+    font-size: 15px;
+}
+
+.post-header__titles p {
+    font-size: 12px;
+}
+
+.post-header__icon {
+    margin-left: 400px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.post-post {
+    background-color: black;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.post-post__video {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.post-social {
+    padding: 10px;
+    margin: 10px;
+}
+
+.post-social__icons {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post-social__icons i {
+    cursor: pointer;
+}
+
+.post-social__likes p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* subscriptions section */
+
+.subscriptions {
+    margin: 15px;
+}
+
+
+.user-data {
+    background: #efefef;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.user-data img {
+    width: 80px;
+    border-radius: 50px;
+}
+
+.user-data__titles p:first-child{
+    font-size: 15px;
+    margin: 4px 0px;
+}
+
+.user-data__titles p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.user-data button {
+    padding: 4px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #9cd4f8;
+    cursor: pointer;
+    margin: 0px 3px;
+    font-size: 14px;
+}
+
+.subs-titles {
+    font-size: 12px;
+    color: #000;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.subscriptions img{
+    width: 0px;
+}
